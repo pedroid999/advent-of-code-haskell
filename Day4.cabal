@@ -59,7 +59,7 @@ library
     import:           warnings
 
     -- Modules exported by the library.
-    exposed-modules:  MyLib
+    exposed-modules:  Day01Part1, Day04Part1
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -69,6 +69,10 @@ library
 
     -- Other library packages from which modules are imported.
     build-depends:    base ^>=4.17.2.1
+
+    build-depends:       
+        base >= 4.7 && < 5,
+        array >= 0.5
 
     -- Directories containing source files.
     hs-source-dirs:   src
@@ -81,7 +85,7 @@ executable Day4
     import:           warnings
 
     -- .hs or .lhs file containing the Main module.
-    main-is:          Day04Part1.hs
+    main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
     -- other-modules:
@@ -93,10 +97,6 @@ executable Day4
     build-depends:
         base ^>=4.17.2.1,
         Day4
-
-    build-depends:       
-        base >= 4.7 && < 5,
-        array >= 0.5
 
     -- Directories containing source files.
     hs-source-dirs:   app

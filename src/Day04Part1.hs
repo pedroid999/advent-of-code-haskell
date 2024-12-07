@@ -1,4 +1,4 @@
-module Main where
+module Day04Part1 where
 
 import Data.Array
 
@@ -9,13 +9,12 @@ xmas = "XMAS"
 offsets :: [(Int, Int)]
 offsets = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
 
--- Main function
-main :: IO ()
-main = do
-    contents <- readFile "resources/inputs/day04.txt"
+solveDay04Part1 :: FilePath -> IO Int
+solveDay04Part1 path = do
+    contents <- readFile path
     let input = lines contents
-    let matrix = listToArray2D input
-    print $ solveInput matrix
+        matrix = listToArray2D input
+    return (solveInput matrix)
 
 -- Convert list to 2D Array
 listToArray2D :: [String] -> Array (Int, Int) Char

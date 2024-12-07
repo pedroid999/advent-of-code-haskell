@@ -1,16 +1,22 @@
-# 🎄 Advent of Code Haskell - Day 4
+# 🎄 Advent of Code Haskell - Day 1 & Day 4
 
-Welcome to the **Advent of Code 2024 - Day 4** solution repository! This project is all about solving fun and challenging problems in Haskell, and we're thrilled to share our approach for Day 4 with you.
+Welcome to the **Advent of Code 2024** solution repository! This project is all about solving fun and challenging problems in Haskell, and we're thrilled to share our approaches for Day 1 and Day 4 with you.
 
 ## 📜 Challenge Overview
 
-The Advent of Code is an annual event that delivers a new set of programming puzzles each day throughout December. This repository features our solution for **Day 4, Part 1** of Advent of Code 2024.
+The Advent of Code is an annual event that delivers a new set of programming puzzles each day throughout December. This repository features our solutions for:
 
-Check out the detailed description of the Day 4 challenge right here: [Day 4 Challenge](https://adventofcode.com/2024/day/4).
+- **Day 1, Part 1** of Advent of Code 2024.
+- **Day 4, Part 1** of Advent of Code 2024.
 
-## 💡 Our Solution
+Check out the detailed description of the challenges here:
 
-We tackled the **Day 4 challenge** using Haskell, utilizing its elegant functional programming features to create a solution that's both efficient and easy to understand. We believe in keeping the code concise yet readable, embracing the beauty of Haskell's purity and expressiveness.
+- [Day 1 Challenge](https://adventofcode.com/2024/day/1)
+- [Day 4 Challenge](https://adventofcode.com/2024/day/4)
+
+## 💡 Our Solutions
+
+We tackled the **Day 1** and **Day 4** challenges using Haskell, utilizing its elegant functional programming features to create solutions that are both efficient and easy to understand. We believe in keeping the code concise yet readable, embracing the beauty of Haskell's purity and expressiveness.
 
 ## 🚀 How to Run It
 
