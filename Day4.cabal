@@ -59,7 +59,7 @@ library
     import:           warnings
 
     -- Modules exported by the library.
-    exposed-modules:  Day01Part1, Day04Part1
+    exposed-modules:  Day01Part1, Day01Part2, Day02Part1, Day02Part2, Day04Part1
 
     -- Modules included in this library but not exported.
     -- other-modules:
